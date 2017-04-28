@@ -5,7 +5,7 @@
 	<default_language>en</default_language>
 	<name>Library - x_r() &amp; x_dump() Debug Functions</name>
 	<description>DEBUGGER: Adds the x_r() print_r wrapper and x_dump() file push functions to store and admin.</description>
-    <priority>1000000</priority>
+    <priority>1</priority>
     <position>0</position>
 	<status>active</status>
     <default_language>en</default_language>
