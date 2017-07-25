@@ -1,19 +1,24 @@
 <?xml version="1.0"?>
 <addon scheme="2.0" edition_type="ROOT,ULT:VENDOR">
-    <id>lib_x_r_debug</id>
-    <version>1.0</version>
-	<default_language>en</default_language>
+	<id>lib_x_r_debug</id>
+	<version>1.0.0</version>
 	<name>Library - x_r() &amp; x_dump() Debug Functions</name>
 	<description>DEBUGGER: Adds the x_r() print_r wrapper and x_dump() file push functions to store and admin.</description>
-    <priority>1</priority>
-    <position>0</position>
+	<priority>1</priority>
+	<position>0</position>
 	<status>active</status>
-    <default_language>en</default_language>
-    <authors>
-        <author>
-            <name>Dhaupin - CreadevDotOrg</name>
-            <email>dhaupin@creadev.org</email>
-            <url>https://creadev.org</url>
-        </author>
-    </authors>
+	<default_language>en</default_language>
+	<compatibility>
+		<core_version>
+			<min>4.3.4</min>
+			<!-- Untested below v4.3.4 -->
+		</core_version>
+	</compatibility>
+	<authors>
+		<author>
+			<name>Dhaupin - CreadevDotOrg</name>
+			<email>dhaupin@creadev.org</email>
+			<url>https://creadev.org</url>
+		</author>
+	</authors>
 </addon>
